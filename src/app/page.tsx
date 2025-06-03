@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar";
 import foto from "./images/eu-foto-2.jpg";
 import ProjectsSection from "./components/ProjectsSection";
+import TechStacks from "./components/TechStacks";
 
 export default function Home() {
   return (
@@ -104,9 +105,10 @@ export default function Home() {
         </div>
 
         <ProjectsSection />
+
         <div
           className="flex flex-col items-center justify-center
-              text-white gap-20 py-28"
+              text-white gap-20 py-8"
         ></div>
 
         <div id="about" className="w-full px-6 py-28">
